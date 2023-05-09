@@ -1,0 +1,4 @@
+2023-04-17 11:01:58.863 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-04-17 13:06:31.833 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-04-17 13:06:54.083 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)
+2023-04-17 15:07:38.168 ===== TRACE ===== NEW CONNECTED USER 'admin' (using remember me feature)

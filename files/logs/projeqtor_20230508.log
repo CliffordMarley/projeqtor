@@ -1,0 +1,865 @@
+2023-05-08 09:26:13.676 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 09:36:28.679 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 09:36:29.289 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 09:37:22.381 ===== TRACE ===== Login error for user 'ycu²õ'
+2023-05-08 09:37:26.284 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 09:47:44.491 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 09:47:44.575 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 09:47:44.575 ***** ERROR ***** []   user='self::'
+2023-05-08 09:47:44.575 ***** ERROR ***** []   error=SQLSTATE[HY000] [2006] MySQL server has gone away
+2023-05-08 09:47:44.787 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 09:47:44.787 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 09:47:44.787 ***** ERROR ***** []   user='self::'
+2023-05-08 09:47:44.787 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 09:47:45.277 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 09:47:45.286 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 09:47:45.286 ***** ERROR ***** []   user='self::'
+2023-05-08 09:47:45.286 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 09:47:45.580 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 09:47:45.580 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 09:47:45.580 ***** ERROR ***** []   user='self::'
+2023-05-08 09:47:45.580 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 09:47:45.680 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 09:47:45.680 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 09:47:45.680 ***** ERROR ***** []   user='self::'
+2023-05-08 09:47:45.680 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 09:47:45.781 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 09:47:45.781 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 09:47:45.781 ***** ERROR ***** []   user='self::'
+2023-05-08 09:47:45.781 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 10:18:40.776 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 10:18:41.579 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 10:18:50.498 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 10:51:16.289 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 10:52:40.479 ===== TRACE ===== Login error for user 'Ü¦×Ò'
+2023-05-08 10:53:36.582 ===== TRACE ===== Login error for user 'uÞ¾và'
+2023-05-08 10:54:44.775 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 11:02:29.781 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 11:02:35.678 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 11:39:58.196 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    For query : select * from habilitationother where habilitationother.idProfile=1 and habilitationother.scope='changeValidatedData'
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/PlanningElement.php:2056]
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->setVisibility called at [/var/www/html/pms/model/persistence/SqlElement.php:8146]
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    #4 SqlElement->isVisibleField called at [/var/www/html/pms/model/ColumnSelector.php:92]
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    #5 ColumnSelector->getColumnsList called at [/var/www/html/pms/model/persistence/SqlElement.php:3711]
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    #6 SqlElement->getLayout called at [/var/www/html/pms/tool/jsonQuery.php:102]
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    For query : select * from habilitationother where habilitationother.idProfile=1 and habilitationother.scope='changePriorityOther'
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 11:39:58.278 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/PlanningElement.php:2078]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->setVisibility called at [/var/www/html/pms/model/persistence/SqlElement.php:8146]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #4 SqlElement->isVisibleField called at [/var/www/html/pms/model/ColumnSelector.php:92]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #5 ColumnSelector->getColumnsList called at [/var/www/html/pms/model/persistence/SqlElement.php:3711]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #6 SqlElement->getLayout called at [/var/www/html/pms/tool/jsonQuery.php:102]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    For query : select id as id, accessCode as name from visibilityscope where (idle=0 ) order by visibilityscope.sortOrder, visibilityscope.accessCode
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlList.php:149]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #1 SqlList->fetchList called at [/var/www/html/pms/model/persistence/SqlList.php:63]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #2 SqlList->getList called at [/var/www/html/pms/model/PlanningElement.php:2086]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->setVisibility called at [/var/www/html/pms/model/persistence/SqlElement.php:8146]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #4 SqlElement->isVisibleField called at [/var/www/html/pms/model/ColumnSelector.php:92]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #5 ColumnSelector->getColumnsList called at [/var/www/html/pms/model/persistence/SqlElement.php:3711]
+2023-05-08 11:39:58.279 ***** ERROR ***** [V10.3.2]    #6 SqlElement->getLayout called at [/var/www/html/pms/tool/jsonQuery.php:102]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    For query : select * from habilitationother where habilitationother.idProfile=1 and habilitationother.scope='cost'
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/PlanningElement.php:2087]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->setVisibility called at [/var/www/html/pms/model/persistence/SqlElement.php:8146]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #4 SqlElement->isVisibleField called at [/var/www/html/pms/model/ColumnSelector.php:92]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #5 ColumnSelector->getColumnsList called at [/var/www/html/pms/model/persistence/SqlElement.php:3711]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #6 SqlElement->getLayout called at [/var/www/html/pms/tool/jsonQuery.php:102]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    For query : select * from habilitationother where habilitationother.idProfile=1 and habilitationother.scope='work'
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/PlanningElement.php:2088]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->setVisibility called at [/var/www/html/pms/model/persistence/SqlElement.php:8146]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #4 SqlElement->isVisibleField called at [/var/www/html/pms/model/ColumnSelector.php:92]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #5 ColumnSelector->getColumnsList called at [/var/www/html/pms/model/persistence/SqlElement.php:3711]
+2023-05-08 11:39:58.280 ***** ERROR ***** [V10.3.2]    #6 SqlElement->getLayout called at [/var/www/html/pms/tool/jsonQuery.php:102]
+2023-05-08 11:39:58.386 ***** ERROR ***** [V10.3.2] EXCEPTION *****
+2023-05-08 11:39:58.386 ***** ERROR ***** [V10.3.2] on file '/var/www/html/pms/model/persistence/Sql.php' at line (181)
+2023-05-08 11:39:58.386 ***** ERROR ***** [V10.3.2] cause = SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 11:39:58.386 ***** ERROR ***** [V10.3.2]    => #0 /var/www/html/pms/model/persistence/Sql.php (181) -> beginTransaction()
+2023-05-08 11:39:58.386 ***** ERROR ***** [V10.3.2]    => #1 /var/www/html/pms/model/ColumnSelector.php (135) -> beginTransaction()
+2023-05-08 11:39:58.386 ***** ERROR ***** [V10.3.2]    => #2 /var/www/html/pms/model/persistence/SqlElement.php (3711) -> getColumnsList()
+2023-05-08 11:39:58.386 ***** ERROR ***** [V10.3.2]    => #3 /var/www/html/pms/tool/jsonQuery.php (102) -> getLayout()
+2023-05-08 11:39:58.987 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:39:58.988 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:39:58.988 ***** ERROR ***** []   user='self::'
+2023-05-08 11:39:58.988 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:39:59.781 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:39:59.781 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:39:59.781 ***** ERROR ***** []   user='self::'
+2023-05-08 11:39:59.781 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:39:59.891 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:39:59.891 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:39:59.891 ***** ERROR ***** []   user='self::'
+2023-05-08 11:39:59.891 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:00.182 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:00.182 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:00.182 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:00.182 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:00.377 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:00.377 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:00.377 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:00.377 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:00.485 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:00.485 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:00.485 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:00.485 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:00.776 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:00.776 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:00.776 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:00.776 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:00.887 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:00.887 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:00.887 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:00.887 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:01.767 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:01.789 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:01.789 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:01.790 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:01.989 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:01.990 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:01.994 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:01.994 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:02.382 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:02.382 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:02.382 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:02.384 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:02.880 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:02.880 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:02.880 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:02.881 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:03.579 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:03.579 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:03.579 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:03.579 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:03.893 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:03.893 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:03.893 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:03.893 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:04.975 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:04.975 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:04.975 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:04.975 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:08.083 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:08.084 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:08.084 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:08.084 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:08.277 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:08.277 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:08.277 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:08.277 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 11:40:08.406 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 11:40:08.406 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 11:40:08.406 ***** ERROR ***** []   user='self::'
+2023-05-08 11:40:08.406 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:28.884 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:28.887 ***** ERROR ***** [V10.3.2]    For query : select id as id, setPausedStatus as name from status where (1=1 ) order by status.sortOrder, status.setPausedStatus
+2023-05-08 13:20:28.889 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:28.976 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlList.php:149]
+2023-05-08 13:20:28.984 ***** ERROR ***** [V10.3.2]    #1 SqlList->fetchList called at [/var/www/html/pms/model/persistence/SqlList.php:74]
+2023-05-08 13:20:28.985 ***** ERROR ***** [V10.3.2]    #2 SqlList->getListNotTranslated called at [/var/www/html/pms/model/persistence/SqlList.php:402]
+2023-05-08 13:20:28.985 ***** ERROR ***** [V10.3.2]    #3 SqlList->getFieldFromId called at [/var/www/html/pms/model/ProjectMain.php:1225]
+2023-05-08 13:20:28.985 ***** ERROR ***** [V10.3.2]    #4 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:29.077 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:29.577 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8121]
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    #5 SqlElement->getOld called at [/var/www/html/pms/model/persistence/SqlElement.php:826]
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    #6 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    For query : select * from status where id=20
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:29.578 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/StatusMain.php:94]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #3 StatusMain->__construct called at [/var/www/html/pms/model/Status.php:39]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #4 Status->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:7695]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #5 SqlElement->recalculateCheckboxes called at [/var/www/html/pms/model/persistence/SqlElement.php:1245]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #6 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #7 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #8 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    For query : select * from type where id=48 and scope = 'Project'
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectType.php:103]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #3 ProjectType->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:7705]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #4 SqlElement->recalculateCheckboxes called at [/var/www/html/pms/model/persistence/SqlElement.php:1245]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #5 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #6 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:29.581 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8121]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #5 SqlElement->getOld called at [/var/www/html/pms/model/ProjectMain.php:1495]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #6 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #7 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #8 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    For query : select * from planningelement where planningelement.refType='Project' and planningelement.refId=3
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/ProjectMain.php:1523]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #4 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #5 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #6 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    For query : select * from type where id=48
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/Type.php:135]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #3 Type->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8303]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #4 SqlElement->getExtraRequiredFields called at [/var/www/html/pms/model/persistence/SqlElement.php:4953]
+2023-05-08 13:20:29.582 ***** ERROR ***** [V10.3.2]    #5 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:29.979 ***** ERROR ***** [V10.3.2]    #6 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:29.979 ***** ERROR ***** [V10.3.2]    #7 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:29.979 ***** ERROR ***** [V10.3.2]    #8 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:29.979 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:4984]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #5 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #6 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #7 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #8 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=3
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:4986]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #5 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #6 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #7 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #8 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:29.981 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    For query : select * from habilitationother where habilitationother.idProfile=1 and habilitationother.scope='changeValidatedData'
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/PlanningElement.php:2056]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->setVisibility called at [/var/www/html/pms/model/PlanningElement.php:2107]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #4 PlanningElement->getFieldAttributes called at [/var/www/html/pms/model/PlanningElement.php:1525]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #5 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    For query : select * from habilitationother where habilitationother.idProfile=1 and habilitationother.scope='changePriorityProj'
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/PlanningElement.php:2078]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->setVisibility called at [/var/www/html/pms/model/PlanningElement.php:2107]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #4 PlanningElement->getFieldAttributes called at [/var/www/html/pms/model/PlanningElement.php:1525]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #5 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:29.982 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    For query : select id as id, accessCode as name from visibilityscope where (idle=0 ) order by visibilityscope.sortOrder, visibilityscope.accessCode
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlList.php:149]
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    #1 SqlList->fetchList called at [/var/www/html/pms/model/persistence/SqlList.php:63]
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    #2 SqlList->getList called at [/var/www/html/pms/model/PlanningElement.php:2086]
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->setVisibility called at [/var/www/html/pms/model/PlanningElement.php:2107]
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    #4 PlanningElement->getFieldAttributes called at [/var/www/html/pms/model/PlanningElement.php:1525]
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    #5 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.278 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    For query : select * from habilitationother where habilitationother.idProfile=1 and habilitationother.scope='cost'
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/PlanningElement.php:2087]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->setVisibility called at [/var/www/html/pms/model/PlanningElement.php:2107]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #4 PlanningElement->getFieldAttributes called at [/var/www/html/pms/model/PlanningElement.php:1525]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #5 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    For query : select * from habilitationother where habilitationother.idProfile=1 and habilitationother.scope='work'
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/PlanningElement.php:2088]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->setVisibility called at [/var/www/html/pms/model/PlanningElement.php:2107]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #4 PlanningElement->getFieldAttributes called at [/var/www/html/pms/model/PlanningElement.php:1525]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #5 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    For query : select * from planningelement where id=11
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/PlanningElement.php:194]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->__construct called at [/var/www/html/pms/model/ProjectPlanningElementMain.php:187]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #4 ProjectPlanningElementMain->__construct called at [/var/www/html/pms/model/ProjectPlanningElement.php:39]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #5 ProjectPlanningElement->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8121]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #6 SqlElement->getOld called at [/var/www/html/pms/model/PlanningElement.php:1545]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #7 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #8 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #10 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #11 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2]    #12 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.279 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=3
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/PlanningElement.php:1549]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #5 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8241]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #5 SqlElement->getExtraRequiredFields called at [/var/www/html/pms/model/persistence/SqlElement.php:4953]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/PlanningElement.php:1569]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #7 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #8 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #10 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #11 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #12 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8403]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #5 SqlElement->getExtraHiddenFields called at [/var/www/html/pms/model/persistence/SqlElement.php:4954]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/PlanningElement.php:1569]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #7 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #8 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #10 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #11 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #12 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    For query : select id as id, name as name from status where (idle=0 ) order by status.sortOrder, status.name
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlList.php:149]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #1 SqlList->fetchList called at [/var/www/html/pms/model/persistence/SqlList.php:63]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #2 SqlList->getList called at [/var/www/html/pms/model/persistence/SqlList.php:445]
+2023-05-08 13:20:30.280 ***** ERROR ***** [V10.3.2]    #3 SqlList->getStatusList called at [/var/www/html/pms/model/persistence/SqlElement.php:8974]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #4 SqlElement->getFirstStatus called at [/var/www/html/pms/model/persistence/SqlElement.php:8430]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #5 SqlElement->getExtraHiddenFields called at [/var/www/html/pms/model/persistence/SqlElement.php:4954]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/PlanningElement.php:1569]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #7 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #8 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #10 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #11 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #12 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    For query : select * from planningelement where id=11
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/PlanningElement.php:194]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->__construct called at [/var/www/html/pms/model/ProjectPlanningElementMain.php:187]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #4 ProjectPlanningElementMain->__construct called at [/var/www/html/pms/model/ProjectPlanningElement.php:39]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #5 ProjectPlanningElement->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8121]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #6 SqlElement->getOld called at [/var/www/html/pms/model/persistence/SqlElement.php:4997]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #7 SqlElement->control called at [/var/www/html/pms/model/PlanningElement.php:1569]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #8 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #9 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #11 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #12 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.281 ***** ERROR ***** [V10.3.2]    #13 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    For query : select * from planningelement where id=11
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/PlanningElement.php:194]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->__construct called at [/var/www/html/pms/model/ProjectPlanningElementMain.php:187]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #4 ProjectPlanningElementMain->__construct called at [/var/www/html/pms/model/ProjectPlanningElement.php:39]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #5 ProjectPlanningElement->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:5292]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/PlanningElement.php:1569]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #7 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #8 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #10 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #11 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #12 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    For query : select * from checklistable where checklistable.name='ProjectPlanningElement'
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:5381]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #3 SqlElement->control called at [/var/www/html/pms/model/PlanningElement.php:1569]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #4 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:5027]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #5 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #6 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #7 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #8 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.386 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:5172]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #5 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #6 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #7 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #8 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:30.387 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8121]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #5 SqlElement->getOld called at [/var/www/html/pms/model/persistence/SqlElement.php:5174]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:5292]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #5 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #6 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #7 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #8 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #9 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    For query : select * from checklistable where checklistable.name='Project'
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:5381]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #3 SqlElement->control called at [/var/www/html/pms/model/ProjectMain.php:1576]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #4 ProjectMain->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #5 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #6 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    For query : select * from planningelement where id=11
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/PlanningElement.php:194]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->__construct called at [/var/www/html/pms/model/ProjectPlanningElementMain.php:187]
+2023-05-08 13:20:30.388 ***** ERROR ***** [V10.3.2]    #4 ProjectPlanningElementMain->__construct called at [/var/www/html/pms/model/ProjectPlanningElement.php:39]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #5 ProjectPlanningElement->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8121]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #6 SqlElement->getOld called at [/var/www/html/pms/model/PlanningElement.php:1545]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #7 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1254]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=3
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/PlanningElement.php:1549]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #5 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1254]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #6 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #7 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    #8 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.883 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8241]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #5 SqlElement->getExtraRequiredFields called at [/var/www/html/pms/model/persistence/SqlElement.php:4953]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/PlanningElement.php:1569]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #7 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1254]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8403]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #5 SqlElement->getExtraHiddenFields called at [/var/www/html/pms/model/persistence/SqlElement.php:4954]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/PlanningElement.php:1569]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #7 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1254]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    For query : select * from planningelement where id=11
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/PlanningElement.php:194]
+2023-05-08 13:20:30.884 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->__construct called at [/var/www/html/pms/model/ProjectPlanningElementMain.php:187]
+2023-05-08 13:20:30.885 ***** ERROR ***** [V10.3.2]    #4 ProjectPlanningElementMain->__construct called at [/var/www/html/pms/model/ProjectPlanningElement.php:39]
+2023-05-08 13:20:30.885 ***** ERROR ***** [V10.3.2]    #5 ProjectPlanningElement->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:8121]
+2023-05-08 13:20:30.885 ***** ERROR ***** [V10.3.2]    #6 SqlElement->getOld called at [/var/www/html/pms/model/persistence/SqlElement.php:4997]
+2023-05-08 13:20:30.885 ***** ERROR ***** [V10.3.2]    #7 SqlElement->control called at [/var/www/html/pms/model/PlanningElement.php:1569]
+2023-05-08 13:20:30.885 ***** ERROR ***** [V10.3.2]    #8 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1254]
+2023-05-08 13:20:30.885 ***** ERROR ***** [V10.3.2]    #9 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.885 ***** ERROR ***** [V10.3.2]    #10 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.885 ***** ERROR ***** [V10.3.2]    #11 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    For query : select * from planningelement where id=11
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/PlanningElement.php:194]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #3 PlanningElement->__construct called at [/var/www/html/pms/model/ProjectPlanningElementMain.php:187]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #4 ProjectPlanningElementMain->__construct called at [/var/www/html/pms/model/ProjectPlanningElement.php:39]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #5 ProjectPlanningElement->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:5292]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #6 SqlElement->control called at [/var/www/html/pms/model/PlanningElement.php:1569]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #7 PlanningElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1254]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #8 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #9 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #10 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.886 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:30.889 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:30.889 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:30.889 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:30.889 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:1280]
+2023-05-08 13:20:30.889 ***** ERROR ***** [V10.3.2]    #5 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.889 ***** ERROR ***** [V10.3.2]    #6 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.889 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.890 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.890 ***** ERROR ***** [V10.3.2]    For query : update note set idle='0' where refType='Project'  and refId=7
+2023-05-08 13:20:30.890 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.890 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:1946]
+2023-05-08 13:20:30.890 ***** ERROR ***** [V10.3.2]    #1 SqlElement->updateSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:1308]
+2023-05-08 13:20:30.890 ***** ERROR ***** [V10.3.2]    #2 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:30.890 ***** ERROR ***** [V10.3.2]    #3 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:30.890 ***** ERROR ***** [V10.3.2]    #4 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:30.891 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:30.891 ***** ERROR ***** [V10.3.2]    For query : select * from project where id=7
+2023-05-08 13:20:30.891 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:30.891 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:3427]
+2023-05-08 13:20:31.174 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:786]
+2023-05-08 13:20:31.176 ***** ERROR ***** [V10.3.2]    #2 SqlElement->__construct called at [/var/www/html/pms/model/ProjectMain.php:218]
+2023-05-08 13:20:31.176 ***** ERROR ***** [V10.3.2]    #3 ProjectMain->__construct called at [/var/www/html/pms/model/Project.php:40]
+2023-05-08 13:20:31.176 ***** ERROR ***** [V10.3.2]    #4 Project->__construct called at [/var/www/html/pms/model/persistence/SqlElement.php:1359]
+2023-05-08 13:20:31.176 ***** ERROR ***** [V10.3.2]    #5 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:31.176 ***** ERROR ***** [V10.3.2]    #6 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:31.176 ***** ERROR ***** [V10.3.2]    #7 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    For query : select * from indicatordefinition where nameIndicatorable='Project' and idle = 0 and idProject in (0)
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:1369]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #2 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #3 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #4 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    For query : select * from indicatordefinition where indicatordefinition.nameIndicatorable='Project' and indicatordefinition.idle=0 and indicatordefinition.idProject is null
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:1372]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #2 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #3 SqlElement->save called at [/var/www/html/pms/model/ProjectMain.php:1251]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #4 ProjectMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    For query : select * from checklistdefinition where nameChecklistable='Project' and (idType is null  or idType='48')
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 13:20:31.177 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/tool/saveObject.php:138]
+2023-05-08 13:20:31.181 ***** ERROR ***** [V10.3.2] EXCEPTION *****
+2023-05-08 13:20:31.181 ***** ERROR ***** [V10.3.2] on file '/var/www/html/pms/model/persistence/Sql.php' at line (217)
+2023-05-08 13:20:31.181 ***** ERROR ***** [V10.3.2] cause = SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 13:20:31.182 ***** ERROR ***** [V10.3.2]    => #0 /var/www/html/pms/model/persistence/Sql.php (217) -> rollBack()
+2023-05-08 13:20:31.182 ***** ERROR ***** [V10.3.2]    => #1 /var/www/html/pms/tool/saveObject.php (151) -> rollbackTransaction()
+2023-05-08 13:20:31.490 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:31.490 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:31.490 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:31.490 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:32.378 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:32.378 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:32.378 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:32.378 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:32.483 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:32.483 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:32.489 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:32.489 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:32.884 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:32.884 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:32.884 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:32.884 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:33.182 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:33.182 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:33.182 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:33.182 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:33.194 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:33.194 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:33.194 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:33.194 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:33.781 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:33.781 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:33.781 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:33.781 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:34.183 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:34.183 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:34.183 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:34.183 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:34.281 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:34.281 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:34.281 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:34.281 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:34.577 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:34.577 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:34.577 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:34.577 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:20:45.879 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:20:45.985 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:20:45.985 ***** ERROR ***** []   user='self::'
+2023-05-08 13:20:45.985 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:21:07.387 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:21:07.575 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:21:07.675 ***** ERROR ***** []   user='self::'
+2023-05-08 13:21:08.184 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:21:12.293 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:21:12.379 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:21:12.575 ***** ERROR ***** []   user='self::'
+2023-05-08 13:21:12.575 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:21:12.783 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 13:21:12.783 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 13:21:12.783 ***** ERROR ***** []   user='self::'
+2023-05-08 13:21:12.783 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 13:31:39.476 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 13:31:40.275 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 13:31:47.789 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 13:31:49.475 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 13:32:08.787 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 13:32:17.477 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 14:02:04.833 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 14:02:04.873 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 14:02:14.264 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 14:07:06.589 ***** ERROR ***** [] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 14:07:06.590 ***** ERROR ***** []    For query : select * from audit where audit.sessionId='h94cuqi4rdh621diuju1g954p6'
+2023-05-08 14:07:06.591 ***** ERROR ***** []    Strack trace :
+2023-05-08 14:07:06.591 ***** ERROR ***** []    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 14:07:06.591 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 14:07:06.591 ***** ERROR ***** []    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/Audit.php:152]
+2023-05-08 14:07:06.591 ***** ERROR ***** []    #3 Audit->updateAudit called at [/var/www/html/pms/tool/projeqtor.php:390]
+2023-05-08 14:07:06.591 ***** ERROR ***** []    #4 require_once called at [/var/www/html/pms/tool/saveDataToSession.php:30]
+2023-05-08 14:07:06.596 ***** ERROR ***** [] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 14:07:06.596 ***** ERROR ***** []    For query : select id as id, name as name from status where (idle=0 ) order by status.sortOrder, status.name
+2023-05-08 14:07:06.596 ***** ERROR ***** []    Strack trace :
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlList.php:149]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #1 SqlList->fetchList called at [/var/www/html/pms/model/persistence/SqlList.php:63]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #2 SqlList->getList called at [/var/www/html/pms/model/persistence/SqlList.php:445]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #3 SqlList->getStatusList called at [/var/www/html/pms/model/persistence/SqlElement.php:8974]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #4 SqlElement->getFirstStatus called at [/var/www/html/pms/model/persistence/SqlElement.php:8275]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #5 SqlElement->getExtraRequiredFields called at [/var/www/html/pms/model/persistence/SqlElement.php:4953]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #6 SqlElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #7 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #8 SqlElement->save called at [/var/www/html/pms/model/Audit.php:386]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #9 Audit->save called at [/var/www/html/pms/model/Audit.php:217]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #10 Audit->updateAudit called at [/var/www/html/pms/tool/projeqtor.php:390]
+2023-05-08 14:07:06.599 ***** ERROR ***** []    #11 require_once called at [/var/www/html/pms/tool/saveDataToSession.php:30]
+2023-05-08 14:07:06.600 ***** ERROR ***** [] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 14:07:06.600 ***** ERROR ***** []    For query : select * from checklistable where checklistable.name='Audit'
+2023-05-08 14:07:06.600 ***** ERROR ***** []    Strack trace :
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:5381]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #3 SqlElement->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #4 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #5 SqlElement->save called at [/var/www/html/pms/model/Audit.php:386]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #6 Audit->save called at [/var/www/html/pms/model/Audit.php:217]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #7 Audit->updateAudit called at [/var/www/html/pms/tool/projeqtor.php:390]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #8 require_once called at [/var/www/html/pms/tool/saveDataToSession.php:30]
+2023-05-08 14:07:06.600 ***** ERROR ***** [] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 14:07:06.600 ***** ERROR ***** []    For query : insert into audit ( sessionId , auditDay , idUser , userName , platform , browser , browserVersion , userAgent , connectionDateTime , lastAccessDateTime , duration , durationDisplay , idle , requestRefreshParam , requestRefreshProject , requestDisconnection ) values ('h94cuqi4rdh621diuju1g954p6', '20230508', '1', 'admin', 'Windows', 'Google Chrome', '113.0.0.0', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36', '2023-05-08 14:07:06', '2023-05-08 14:07:06', '00:00:00', '00:00:00', '0', '0', '0', '0')
+2023-05-08 14:07:06.600 ***** ERROR ***** []    Strack trace :
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:1555]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #1 SqlElement->insertSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:1314]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #2 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #3 SqlElement->save called at [/var/www/html/pms/model/Audit.php:386]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #4 Audit->save called at [/var/www/html/pms/model/Audit.php:217]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #5 Audit->updateAudit called at [/var/www/html/pms/tool/projeqtor.php:390]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #6 require_once called at [/var/www/html/pms/tool/saveDataToSession.php:30]
+2023-05-08 14:07:06.600 ***** ERROR ***** [] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 14:07:06.600 ***** ERROR ***** []    For query : select id as id, name as name from indicatorable where (1=1 ) order by indicatorable.name
+2023-05-08 14:07:06.600 ***** ERROR ***** []    Strack trace :
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlList.php:149]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #1 SqlList->fetchList called at [/var/www/html/pms/model/persistence/SqlList.php:63]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #2 SqlList->getList called at [/var/www/html/pms/model/persistence/SqlList.php:434]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #3 SqlList->getIdFromName called at [/var/www/html/pms/model/persistence/SqlList.php:441]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #4 SqlList->getIdFromTranslatableName called at [/var/www/html/pms/model/persistence/SqlElement.php:1355]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #5 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #6 SqlElement->save called at [/var/www/html/pms/model/Audit.php:386]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #7 Audit->save called at [/var/www/html/pms/model/Audit.php:217]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #8 Audit->updateAudit called at [/var/www/html/pms/tool/projeqtor.php:390]
+2023-05-08 14:07:06.600 ***** ERROR ***** []    #9 require_once called at [/var/www/html/pms/tool/saveDataToSession.php:30]
+2023-05-08 14:07:06.601 ***** ERROR ***** [] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 14:07:06.602 ***** ERROR ***** []    For query : select * from parameter where parameter.idUser=1 and parameter.parameterCode='contentPaneDetailDivHeightMilestone'
+2023-05-08 14:07:06.602 ***** ERROR ***** []    Strack trace :
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/Parameter.php:1518]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #3 Parameter->storeUserParameter called at [/var/www/html/pms/tool/saveDataToSession.php:88]
+2023-05-08 14:07:06.602 ***** ERROR ***** [] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 14:07:06.602 ***** ERROR ***** []    For query : select * from checklistable where checklistable.name='Parameter'
+2023-05-08 14:07:06.602 ***** ERROR ***** []    Strack trace :
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:3269]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #2 SqlElement->getSingleSqlElementFromCriteria called at [/var/www/html/pms/model/persistence/SqlElement.php:5381]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #3 SqlElement->control called at [/var/www/html/pms/model/Parameter.php:2495]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #4 Parameter->control called at [/var/www/html/pms/model/persistence/SqlElement.php:1250]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #5 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #6 SqlElement->save called at [/var/www/html/pms/model/Parameter.php:1525]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #7 Parameter->storeUserParameter called at [/var/www/html/pms/tool/saveDataToSession.php:88]
+2023-05-08 14:07:06.602 ***** ERROR ***** [] Exception-[HY000] SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+2023-05-08 14:07:06.602 ***** ERROR ***** []    For query : insert into parameter ( idUser , parameterCode , parameterValue ) values ('1', 'contentPaneDetailDivHeightMilestone', '350')
+2023-05-08 14:07:06.602 ***** ERROR ***** []    Strack trace :
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:1555]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #1 SqlElement->insertSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:1314]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #2 SqlElement->saveSqlElement called at [/var/www/html/pms/model/persistence/SqlElement.php:853]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #3 SqlElement->save called at [/var/www/html/pms/model/Parameter.php:1525]
+2023-05-08 14:07:06.602 ***** ERROR ***** []    #4 Parameter->storeUserParameter called at [/var/www/html/pms/tool/saveDataToSession.php:88]
+2023-05-08 14:07:06.646 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:06.646 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:06.646 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:06.646 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:06.654 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:06.654 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:06.654 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:06.654 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:06.686 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:06.686 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:06.686 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:06.686 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:06.697 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:06.697 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:06.697 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:06.697 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:06.711 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:06.711 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:06.711 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:06.720 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:07.288 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:07.288 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:07.288 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:07.288 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:07.325 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:07.325 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:07.325 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:07.325 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:07.335 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:07.335 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:07.335 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:07.335 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:07.384 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:07.384 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:07.384 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:07.384 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:07.475 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:07.475 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:07.475 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:07.475 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:07.506 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:07.506 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:07.506 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:07.506 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:07:07.695 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 14:07:07.696 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 14:07:07.696 ***** ERROR ***** []   user='self::'
+2023-05-08 14:07:07.696 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Connection refused
+2023-05-08 14:41:58.697 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 14:44:14.132 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 14:52:47.285 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 16:04:05.677 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 16:04:09.220 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 16:05:35.775 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 16:05:44.292 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 16:55:11.878 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-05-08 16:55:22.985 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-05-08 16:59:22.890 ***** ERROR ***** [] SQL ERROR : Connection to Database failed 
+2023-05-08 16:59:23.183 ***** ERROR ***** []   dns='mysql:host=127.0.0.1;port=3306;dbname=pms_db'
+2023-05-08 16:59:23.183 ***** ERROR ***** []   user='self::'
+2023-05-08 16:59:23.183 ***** ERROR ***** []   error=SQLSTATE[HY000] [2002] Cannot assign requested address

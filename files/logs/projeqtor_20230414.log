@@ -1,0 +1,109 @@
+2023-04-14 09:51:32.125 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2] Exception-[42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND statusSetLeaveChange=1 AND statusOutOfWorkflow=0 AND (1=1 AND submitted=1)' at line 1
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2]    For query : update employeeleaveperiod set statusSetLeaveChange=0 WHERE idStatus =  AND statusSetLeaveChange=1 AND statusOutOfWorkflow=0 AND (1=1 AND submitted=1)
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlDirectElement.php:83]
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2]    #1 SqlDirectElement->execute called at [/var/www/html/pms/model/StatusMain.php:175]
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2]    #2 StatusMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2] Exception-[42000] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND statusSetLeaveChange=0 AND statusOutOfWorkflow = 0 AND (1=0  OR submitted=0)' at line 1
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2]    For query : select * from employeeleaveperiod where idStatus =  AND statusSetLeaveChange=0 AND statusOutOfWorkflow = 0 AND (1=0  OR submitted=0)
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/persistence/SqlElement.php:2957]
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2]    #1 SqlElement->getSqlElementsFromCriteria called at [/var/www/html/pms/model/StatusMain.php:196]
+2023-04-14 11:42:15.122 ***** ERROR ***** [V10.3.2]    #2 StatusMain->save called at [/var/www/html/pms/tool/saveObject.php:124]
+2023-04-14 12:08:33.509 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-04-14 12:09:07.600 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-04-14 12:16:28.523 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-04-14 12:26:05.278 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 3065 Expression #1 of ORDER BY clause is not in SELECT list, references column 'pms_db.st.sortOrder' which is not in SELECT list; this is incompatible with DISTINCT
+2023-04-14 12:26:05.278 ***** ERROR ***** [V10.3.2]    For query : SELECT DISTINCT st.name from status as st
+                  left JOIN workflow as wf on wf.isLeaveWorkflow = 1
+                  left join workflowstatus as wfs on wfs.idWorkflow = wf.id
+                  where st.id = wfs.idStatusFrom or st.id = wfs.idStatusTo ORDER by st.sortOrder;
+2023-04-14 12:26:05.278 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 12:26:05.278 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/LeaveTypeMain.php:736]
+2023-04-14 12:26:05.278 ***** ERROR ***** [V10.3.2]    #1 LeaveTypeMain->drawSendInfo called at [/var/www/html/pms/model/LeaveTypeMain.php:1080]
+2023-04-14 12:26:05.278 ***** ERROR ***** [V10.3.2]    #2 LeaveTypeMain->drawSpecificItem called at [/var/www/html/pms/view/objectDetail.php:1153]
+2023-04-14 12:26:05.278 ***** ERROR ***** [V10.3.2]    #3 drawTableFromObject called at [/var/www/html/pms/view/objectDetail.php:361]
+2023-04-14 12:28:42.063 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 3065 Expression #1 of ORDER BY clause is not in SELECT list, references column 'pms_db.st.sortOrder' which is not in SELECT list; this is incompatible with DISTINCT
+2023-04-14 12:28:42.063 ***** ERROR ***** [V10.3.2]    For query : SELECT DISTINCT st.name from status as st
+                  left JOIN workflow as wf on wf.isLeaveWorkflow = 1
+                  left join workflowstatus as wfs on wfs.idWorkflow = wf.id
+                  where st.id = wfs.idStatusFrom or st.id = wfs.idStatusTo ORDER by st.sortOrder;
+2023-04-14 12:28:42.063 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 12:28:42.063 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/LeaveTypeMain.php:736]
+2023-04-14 12:28:42.063 ***** ERROR ***** [V10.3.2]    #1 LeaveTypeMain->drawSendInfo called at [/var/www/html/pms/model/LeaveTypeMain.php:1080]
+2023-04-14 12:28:42.063 ***** ERROR ***** [V10.3.2]    #2 LeaveTypeMain->drawSpecificItem called at [/var/www/html/pms/view/objectDetail.php:1153]
+2023-04-14 12:28:42.063 ***** ERROR ***** [V10.3.2]    #3 drawTableFromObject called at [/var/www/html/pms/view/objectDetail.php:280]
+2023-04-14 12:29:34.716 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 3065 Expression #1 of ORDER BY clause is not in SELECT list, references column 'pms_db.st.sortOrder' which is not in SELECT list; this is incompatible with DISTINCT
+2023-04-14 12:29:34.716 ***** ERROR ***** [V10.3.2]    For query : SELECT DISTINCT st.name from status as st
+                  left JOIN workflow as wf on wf.isLeaveWorkflow = 1
+                  left join workflowstatus as wfs on wfs.idWorkflow = wf.id
+                  where st.id = wfs.idStatusFrom or st.id = wfs.idStatusTo ORDER by st.sortOrder;
+2023-04-14 12:29:34.716 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 12:29:34.716 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/LeaveTypeMain.php:736]
+2023-04-14 12:29:34.716 ***** ERROR ***** [V10.3.2]    #1 LeaveTypeMain->drawSendInfo called at [/var/www/html/pms/model/LeaveTypeMain.php:1080]
+2023-04-14 12:29:34.716 ***** ERROR ***** [V10.3.2]    #2 LeaveTypeMain->drawSpecificItem called at [/var/www/html/pms/view/objectDetail.php:1153]
+2023-04-14 12:29:34.716 ***** ERROR ***** [V10.3.2]    #3 drawTableFromObject called at [/var/www/html/pms/view/objectDetail.php:361]
+2023-04-14 12:32:19.471 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 3065 Expression #1 of ORDER BY clause is not in SELECT list, references column 'pms_db.st.sortOrder' which is not in SELECT list; this is incompatible with DISTINCT
+2023-04-14 12:32:19.471 ***** ERROR ***** [V10.3.2]    For query : SELECT DISTINCT st.name from status as st
+                  left JOIN workflow as wf on wf.isLeaveWorkflow = 1
+                  left join workflowstatus as wfs on wfs.idWorkflow = wf.id
+                  where st.id = wfs.idStatusFrom or st.id = wfs.idStatusTo ORDER by st.sortOrder;
+2023-04-14 12:32:19.471 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 12:32:19.471 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/LeaveTypeMain.php:736]
+2023-04-14 12:32:19.471 ***** ERROR ***** [V10.3.2]    #1 LeaveTypeMain->drawSendInfo called at [/var/www/html/pms/model/LeaveTypeMain.php:1080]
+2023-04-14 12:32:19.471 ***** ERROR ***** [V10.3.2]    #2 LeaveTypeMain->drawSpecificItem called at [/var/www/html/pms/view/objectDetail.php:1153]
+2023-04-14 12:32:19.471 ***** ERROR ***** [V10.3.2]    #3 drawTableFromObject called at [/var/www/html/pms/view/objectDetail.php:280]
+2023-04-14 12:32:41.779 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 3065 Expression #1 of ORDER BY clause is not in SELECT list, references column 'pms_db.st.sortOrder' which is not in SELECT list; this is incompatible with DISTINCT
+2023-04-14 12:32:41.780 ***** ERROR ***** [V10.3.2]    For query : SELECT DISTINCT st.name from status as st
+                  left JOIN workflow as wf on wf.isLeaveWorkflow = 1
+                  left join workflowstatus as wfs on wfs.idWorkflow = wf.id
+                  where st.id = wfs.idStatusFrom or st.id = wfs.idStatusTo ORDER by st.sortOrder;
+2023-04-14 12:32:41.780 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 12:32:41.780 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/LeaveTypeMain.php:736]
+2023-04-14 12:32:41.780 ***** ERROR ***** [V10.3.2]    #1 LeaveTypeMain->drawSendInfo called at [/var/www/html/pms/model/LeaveTypeMain.php:1080]
+2023-04-14 12:32:41.780 ***** ERROR ***** [V10.3.2]    #2 LeaveTypeMain->drawSpecificItem called at [/var/www/html/pms/view/objectDetail.php:1153]
+2023-04-14 12:32:41.780 ***** ERROR ***** [V10.3.2]    #3 drawTableFromObject called at [/var/www/html/pms/view/objectDetail.php:361]
+2023-04-14 12:33:47.166 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 3065 Expression #1 of ORDER BY clause is not in SELECT list, references column 'pms_db.st.sortOrder' which is not in SELECT list; this is incompatible with DISTINCT
+2023-04-14 12:33:47.166 ***** ERROR ***** [V10.3.2]    For query : SELECT DISTINCT st.name from status as st
+                  left JOIN workflow as wf on wf.isLeaveWorkflow = 1
+                  left join workflowstatus as wfs on wfs.idWorkflow = wf.id
+                  where st.id = wfs.idStatusFrom or st.id = wfs.idStatusTo ORDER by st.sortOrder;
+2023-04-14 12:33:47.166 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 12:33:47.166 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/LeaveTypeMain.php:736]
+2023-04-14 12:33:47.166 ***** ERROR ***** [V10.3.2]    #1 LeaveTypeMain->drawSendInfo called at [/var/www/html/pms/model/LeaveTypeMain.php:1080]
+2023-04-14 12:33:47.166 ***** ERROR ***** [V10.3.2]    #2 LeaveTypeMain->drawSpecificItem called at [/var/www/html/pms/view/objectDetail.php:1153]
+2023-04-14 12:33:47.166 ***** ERROR ***** [V10.3.2]    #3 drawTableFromObject called at [/var/www/html/pms/view/objectDetail.php:280]
+2023-04-14 12:33:58.538 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 3065 Expression #1 of ORDER BY clause is not in SELECT list, references column 'pms_db.st.sortOrder' which is not in SELECT list; this is incompatible with DISTINCT
+2023-04-14 12:33:58.538 ***** ERROR ***** [V10.3.2]    For query : SELECT DISTINCT st.name from status as st
+                  left JOIN workflow as wf on wf.isLeaveWorkflow = 1
+                  left join workflowstatus as wfs on wfs.idWorkflow = wf.id
+                  where st.id = wfs.idStatusFrom or st.id = wfs.idStatusTo ORDER by st.sortOrder;
+2023-04-14 12:33:58.538 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 12:33:58.538 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/LeaveTypeMain.php:736]
+2023-04-14 12:33:58.538 ***** ERROR ***** [V10.3.2]    #1 LeaveTypeMain->drawSendInfo called at [/var/www/html/pms/model/LeaveTypeMain.php:1080]
+2023-04-14 12:33:58.538 ***** ERROR ***** [V10.3.2]    #2 LeaveTypeMain->drawSpecificItem called at [/var/www/html/pms/view/objectDetail.php:1153]
+2023-04-14 12:33:58.538 ***** ERROR ***** [V10.3.2]    #3 drawTableFromObject called at [/var/www/html/pms/view/objectDetail.php:361]
+2023-04-14 12:35:06.199 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 3065 Expression #1 of ORDER BY clause is not in SELECT list, references column 'pms_db.st.sortOrder' which is not in SELECT list; this is incompatible with DISTINCT
+2023-04-14 12:35:06.199 ***** ERROR ***** [V10.3.2]    For query : SELECT DISTINCT st.name from status as st
+                  left JOIN workflow as wf on wf.isLeaveWorkflow = 1
+                  left join workflowstatus as wfs on wfs.idWorkflow = wf.id
+                  where st.id = wfs.idStatusFrom or st.id = wfs.idStatusTo ORDER by st.sortOrder;
+2023-04-14 12:35:06.199 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 12:35:06.199 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/LeaveTypeMain.php:736]
+2023-04-14 12:35:06.199 ***** ERROR ***** [V10.3.2]    #1 LeaveTypeMain->drawSendInfo called at [/var/www/html/pms/model/LeaveTypeMain.php:1080]
+2023-04-14 12:35:06.199 ***** ERROR ***** [V10.3.2]    #2 LeaveTypeMain->drawSpecificItem called at [/var/www/html/pms/view/objectDetail.php:1153]
+2023-04-14 12:35:06.199 ***** ERROR ***** [V10.3.2]    #3 drawTableFromObject called at [/var/www/html/pms/view/objectDetail.php:280]
+2023-04-14 12:36:47.927 ***** ERROR ***** [V10.3.2] Exception-[HY000] SQLSTATE[HY000]: General error: 3065 Expression #1 of ORDER BY clause is not in SELECT list, references column 'pms_db.st.sortOrder' which is not in SELECT list; this is incompatible with DISTINCT
+2023-04-14 12:36:47.927 ***** ERROR ***** [V10.3.2]    For query : SELECT DISTINCT st.name from status as st
+                  left JOIN workflow as wf on wf.isLeaveWorkflow = 1
+                  left join workflowstatus as wfs on wfs.idWorkflow = wf.id
+                  where st.id = wfs.idStatusFrom or st.id = wfs.idStatusTo ORDER by st.sortOrder;
+2023-04-14 12:36:47.927 ***** ERROR ***** [V10.3.2]    Strack trace :
+2023-04-14 12:36:47.927 ***** ERROR ***** [V10.3.2]    #0 Sql->query called at [/var/www/html/pms/model/LeaveTypeMain.php:736]
+2023-04-14 12:36:47.927 ***** ERROR ***** [V10.3.2]    #1 LeaveTypeMain->drawSendInfo called at [/var/www/html/pms/model/LeaveTypeMain.php:1080]
+2023-04-14 12:36:47.927 ***** ERROR ***** [V10.3.2]    #2 LeaveTypeMain->drawSpecificItem called at [/var/www/html/pms/view/objectDetail.php:1153]
+2023-04-14 12:36:47.927 ***** ERROR ***** [V10.3.2]    #3 drawTableFromObject called at [/var/www/html/pms/view/objectDetail.php:361]
+2023-04-14 12:39:57.614 ===== TRACE ===== DISCONNECTED USER 'admin'
+2023-04-14 12:40:07.442 ===== TRACE ===== NEW CONNECTED USER 'admin'
+2023-04-14 12:40:08.871 ===== TRACE ===== NEW CONNECTED USER 'admin'
